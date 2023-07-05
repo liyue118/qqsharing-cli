@@ -1,0 +1,35 @@
+{
+  "name": "sharing6-cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yue.li <yue.li@77hub.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "sharing6-cli": "bin/cli.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "dirname-filename-esm": "^1.1.1",
+    "entity": "^0.1.1",
+    "fse": "^4.0.1",
+    "init": "^0.0.0",
+    "utils": "^0.1.1"
+  }
+}
